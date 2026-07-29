@@ -15,7 +15,6 @@ const client = new Client({
 
 // 2. Inicializar DisTube con el plugin de yt-dlp para mejor extracción
 client.distube = new DisTube(client, {
-    leaveOnStop: false,
     emitNewSongOnly: true,
     emitAddSongWhenCreatingQueue: false,
     emitAddListWhenCreatingQueue: false,
